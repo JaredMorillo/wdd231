@@ -1,0 +1,270 @@
+/* -------------- COLOR PALLETTE ---------------
+Dark Purple  #28222C
+Dark grayish brown #4A3F40, 
+deep dusty rose #8A4F55 
+light peach #E4A390
+Light Golden Brown #D49C68  */
+
+
+* {
+    font-family: "Vidaloka", serif;
+    box-sizing: border-box;
+}
+
+
+
+/************************** HEADER **************************/
+header {
+    padding: 10px 0 10px 10px;
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    column-gap: 8px;
+    align-items: end;
+    border-bottom: 1px solid  rgba(0,0,0,0.1);
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #D49C68;
+}
+
+
+
+
+
+
+
+
+/************************** NAVIGATION **************************/
+nav {
+    background-color: #8A4F55;
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #D49C68;
+    text-decoration: none;
+    padding: .8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+    color: #28222C;
+}
+
+nav li.active a {
+    background-color: #E4A390;
+    color: #000;
+}
+
+nav.show {
+    display: block;
+}
+
+/************************** HAMBURGER NAVIGATION **************************/
+.hamburger {
+    background: none;
+    border: none;
+    color: #D49C68;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+
+
+
+
+
+/************************** MAIN LAYOUT **************************/
+h1 {
+    font-size: 1.5rem;
+    color: #4A3F40;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+/************************** CARD LAYOUT **************************/
+.card {
+    border: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    margin: .5rem 10px;
+    overflow: hidden;
+}
+.card h2 {
+    background-color: #4A3F40;
+    color: #8A4F55;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: .5rem .2rem;
+    text-align: center;
+}
+.card p {
+    font-weight: 200;
+    margin: 10px;
+    line-height: 130%;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.courses div {
+    text-align: center;
+}
+
+.courses button {
+    padding: .75rem;
+    margin: .5rem;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: color_change 2s infinite alternate;
+}
+
+@keyframes color_change {
+    0% {
+        background-color: #F4F1DE;
+    }
+
+    100% {
+        background-color: #28222C;
+    }
+}
+
+.crsList {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.crsList div {
+    padding: .75rem;
+    margin: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/************************** DISPLAY COURSES **************************/
+/*https://www.toptal.com/designers/htmlarrows/symbols/check-mark */
+.needed {
+    background-color: #8A4F55;
+}
+
+.complete {
+    background-color: #F4F1DE;
+}
+
+.complete::before {
+    content: "\2713  "
+}
+
+.courses p {
+    text-align: center;
+}
+
+
+
+
+/************************** MODAL DIALOG STYLING **************************/
+dialog {
+    color: #D49C68;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+}
+dialog h2 {color: #4A3F40;}
+dialog h3 {color: #28222C;}
+dialog p {font-weight: 300;}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/************************** SOCIAL MEDIA **************************/
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-bottom: 1rem;
+}
+.social a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.7);
+}
+.social img {
+    width:22px;
+    height:22px;
+}
+.social a:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+
+
+/************************** FOOTER **************************/
+footer {
+    background-color: #4A3F40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: .25rem;
+    font-size: .8rem;
+    font-weight: 300;
+}

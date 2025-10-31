@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Jared Morillo</title>
+    <meta name="description" content="WDD 231 Sample Assignments">
+    <meta name="author" content="Jared Morillo">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Vidaloka&display=swap" rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/getcourses.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
+
+
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="1" height="1" loading="lazy">
+        <span>Jared Morillo</span>
+        <button id="hamburger" class="hamburger" aria-label="navigation links"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber">Chamber Assignment</a></li>
+            <li><a href="final/index.html">Final Project</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Home</h1>
+        <div class="sbs">
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Hi, my name is Jared I'm from Guayaquil, Ecuador and I'm a technology student at BYU-Idaho with a passion for web development and creative problem-solving. I enjoy working with tools like Node.js, Express, and MongoDB to build practical, well-structured applications. Beyond coding, I love teaching, learning new things, and exploring creative hobbies like storytelling and Dungeons & Dragons. My goal is to keep growing as a developer and find meaningful ways to use technology to help others.</p>
+        </section>
+        <section class="card">
+            <h2>Mug Shot</h2>
+            <img src="images/JG.webp" width="250" height="250" alt="Jared G. Morillo" loading="lazy">
+        </section>
+    </div>
+        <section class="card courses">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div>
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+            
+        <section id="crsList" class="crsList"></section>
+        <p id="totalCredits"></p>
+    </section>
+    <dialog id="course-details"></dialog>
+    </main>
+    <footer>
+        <section class="social">
+            <a href="#" target="_blank"><img src="images/icon-facebook.svg" alt="Facebook Icon"></a>
+            <a href="#" target="_blank"><img src="images/icon-github.svg" alt="GitHub Icon"></a>
+            <a href="#" target="_blank"><img src="images/icon-linkedin.svg" alt="Linked In Icon"></a>
+            <a href="#" target="_blank"><img src="images/icon-whatsapp.svg" alt="Whats App Icon"></a>
+        </section>
+        <p>&copy; <span id="currentyear"></span> • Jared G. Morillo • Guayaquil, Ecuador</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    
+</body>
+</html>
