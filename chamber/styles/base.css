@@ -8,10 +8,36 @@ Light Golden Brown #D49C68  */
 * {
     font-family: "Vidaloka", serif;
 }
+ 
+:root {
+    /* Palette (semantic and raw) */
+    --color-dark-purple: #28222C;
+    --color-dark-brown: #4A3F40;
+    --color-dusty-rose: #8A4F55;
+    --color-peach: #E4A390;
+    --color-golden: #D49C68;
+
+    /* common semantic tokens */
+    --color-primary: var(--color-dusty-rose);
+    --color-secondary: var(--color-golden);
+    --color-bg: var(--color-peach);
+    --color-text: var(--color-dark-purple);
+    --color-muted: var(--color-dark-brown);
+
+    /* utilities (kept as raw values for now) */
+    --color-surface: #eee;
+    --color-border: #aaa;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-accent: var(--color-dark-brown); 
+    --color-dark-cta: #2a384a;
+    --color-teal: #008b94;
+    --color-shadow: #777;
+}
 
 /************************** HEADER **************************/
 header {
-    background-color: #8A4F55;
+    background-color: var(--color-dusty-rose);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -52,7 +78,7 @@ button#hamburger {
 	display: block;
 	padding-bottom: .6rem;
 	font-size: 2rem;
-	color: #28222C;
+	color: var(--color-dark-purple);
 	text-align: center;
 	width: 50px;
 	cursor: pointer;
@@ -67,7 +93,7 @@ button#hamburger.show::before {
 }
 /************ Animate open and closed *************/
 nav {
-    background-color: #E4A390;
+    background-color: var(--color-peach);
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.5s ease-out;
@@ -105,11 +131,11 @@ nav.show {
 /************ Overall Page Styling *************/
 main h1 {
     margin: .5rem 10px;
-    color: #d4295f;
+    color: #D49C68;
 }
 main h2 {
     margin: .5rem 10px;
-    color: #4A3F40;
+    color: var(--color-dark-brown);
 }
 main h3 {
     margin: .5rem 10px;
