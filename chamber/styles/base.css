@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: left;
-    color: #E4A390;
+    color: #fff;
 }
 header img {display: block; padding: 16px 10px;}
 header span:first-child {font-size: 2rem;}
@@ -36,11 +36,11 @@ nav ul li a {
     display: block;
     text-align: center;
     font-size: 1.2rem;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid #00000033;
 }
 nav ul li.active a {background-color: #8A4F55; color: #fff;}
 nav ul li a:hover {
-    background-color: rgba(255,255,255,0.15);
+    background-color: #ffffff26;
 }
 
 /************************** HAMBURGER NAVIGATION **************************/
@@ -94,7 +94,7 @@ nav.show {
     display: block;
     width: 100px;
     text-align: center;
-    color: white;
+    color: #fff;
     border: solid 1px #000;
     border-radius: 5px;
     padding: 5px;
@@ -106,7 +106,7 @@ nav.show {
 /************ Overall Page Styling *************/
 main h1 {
     margin: .5rem 10px;
-    color: #d4295f;
+    color: #D49C68;
 }
 main h2 {
     margin: .5rem 10px;
@@ -114,14 +114,14 @@ main h2 {
 }
 main h3 {
     margin: .5rem 10px;
-    color: #333;
+    color: #4A3F40;
 }
 main p {
     margin: .5rem 10px;
-    color: #333;
+    color: #4A3F40;
 }
 main a {
-    color: #82082f;
+    color: #4A3F40;
 }
 
 /************ Events and Weather *************/
@@ -129,7 +129,7 @@ section.ew {margin: .5rem 10px;}
 section.ew div {background-color: #eee;}
 section.ew h2 {
     margin: 0;
-    background-color: #d4295f;
+    background-color: #D49C68;
     color: white;
     padding: 5px 10px;
 }
@@ -157,7 +157,7 @@ div.weather p {
 #spot div {
     background-color: #eee;
     text-align: center;
-    border: 1px solid #aaa;
+    border: 1px solid #4A3F40;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
@@ -191,7 +191,7 @@ div.theButtons button {
   margin: 0 1rem; 
   padding: .7rem 1rem;
   border-radius: 10px;
-  border: 1px solid #666;
+  border: 1px solid #4A3F40;
 }
 div#members {
   margin: 0 2vw;
@@ -207,7 +207,7 @@ div.grid {
 div.grid section {
   text-align: center;
   margin: 1rem 0;
-  border: solid 1px #aaa;
+  border: solid 1px #4A3F40;
   background-color: #eee;
   border-radius: 10px;
   overflow: hidden;
@@ -223,7 +223,7 @@ div.list section {
   align-items: center;
   margin: .5rem 0;
   padding: 5px;
-  border: solid 1px #aaa;
+  border: solid 1px #4A3F40;
   background-color: #eee;
   border-radius: 10px;
   overflow: hidden;
@@ -236,7 +236,7 @@ div.list img:first-child {display: none;}
 
 /************************** MODAL POPUPS **************************/
 .mslvl aside {
-    border: solid 1px #444;
+    border: solid 1px #4A3F40;
     border-radius: 5px 20px;
     padding: 10px;
     background-color: #bed9d2;
@@ -425,7 +425,8 @@ border-radius: 6px;
 
 /************************** FOOTER **************************/
 footer {
-    background-color: #bed9d2;
+    background-color: #8A4F55;
+    color: #fff;
 }
 footer section {
     padding: 2rem 10px;
