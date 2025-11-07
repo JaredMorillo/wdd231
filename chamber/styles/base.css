@@ -178,12 +178,6 @@ div.weather p {
 }
 
 
-
-
-
-
-
-
 /************************** DIRECTORY HERE **************************/
 div.theButtons {width: 100%; text-align: center;}
 div.theButtons button.active {background-color: #f27d80;}
@@ -230,10 +224,6 @@ div.list section {
 }
 div.list img:first-child {display: none;}
 
-
-
-
-
 /************************** MODAL POPUPS **************************/
 .mslvl aside {
     border: solid 1px #4A3F40;
@@ -259,8 +249,6 @@ div.list img:first-child {display: none;}
       background-color: #bed9d2;
     }
   }
-
-
 
 #mlModal {
     position: relative;
@@ -299,10 +287,6 @@ div.list img:first-child {display: none;}
     background-color: #ccc;
     font-size: 1.5rem;
   }
-
-
-
-
 
 
 /************************** JOIN FORM **************************/
@@ -364,8 +348,7 @@ form.designOne {
 .designOne input:-webkit--autofill{
 -webkit--text-fill-color: #3D405B;
 }
-
-
+/************************** SEARCH RESULTS **************************/
 
 #results {
 background-color: #F4F1DE;
@@ -420,7 +403,6 @@ border-radius: 6px;
     padding: 1rem;
     grid-area: button;
   }
-
 
 
 /************************** FOOTER **************************/
