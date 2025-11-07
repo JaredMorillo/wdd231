@@ -106,7 +106,7 @@ nav.show {
 /************ Overall Page Styling *************/
 main h1 {
     margin: .5rem 10px;
-    color: #D49C68;
+    color: #d4295f;
 }
 main h2 {
     margin: .5rem 10px;
@@ -114,14 +114,14 @@ main h2 {
 }
 main h3 {
     margin: .5rem 10px;
-    color: #4A3F40;
+    color: #333;
 }
 main p {
     margin: .5rem 10px;
-    color: #4A3F40;
+    color: #333;
 }
 main a {
-    color: #4A3F40;
+    color: #82082f;
 }
 
 /************ Events and Weather *************/
@@ -129,7 +129,7 @@ section.ew {margin: .5rem 10px;}
 section.ew div {background-color: #eee;}
 section.ew h2 {
     margin: 0;
-    background-color: #D49C68;
+    background-color: #d4295f;
     color: white;
     padding: 5px 10px;
 }
@@ -157,7 +157,7 @@ div.weather p {
 #spot div {
     background-color: #eee;
     text-align: center;
-    border: 1px solid #4A3F40;
+    border: 1px solid #aaa;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
@@ -178,6 +178,12 @@ div.weather p {
 }
 
 
+
+
+
+
+
+
 /************************** DIRECTORY HERE **************************/
 div.theButtons {width: 100%; text-align: center;}
 div.theButtons button.active {background-color: #f27d80;}
@@ -185,7 +191,7 @@ div.theButtons button {
   margin: 0 1rem; 
   padding: .7rem 1rem;
   border-radius: 10px;
-  border: 1px solid #4A3F40;
+  border: 1px solid #666;
 }
 div#members {
   margin: 0 2vw;
@@ -201,7 +207,7 @@ div.grid {
 div.grid section {
   text-align: center;
   margin: 1rem 0;
-  border: solid 1px #4A3F40;
+  border: solid 1px #aaa;
   background-color: #eee;
   border-radius: 10px;
   overflow: hidden;
@@ -217,16 +223,20 @@ div.list section {
   align-items: center;
   margin: .5rem 0;
   padding: 5px;
-  border: solid 1px #4A3F40;
+  border: solid 1px #aaa;
   background-color: #eee;
   border-radius: 10px;
   overflow: hidden;
 }
 div.list img:first-child {display: none;}
 
+
+
+
+
 /************************** MODAL POPUPS **************************/
 .mslvl aside {
-    border: solid 1px #4A3F40;
+    border: solid 1px #444;
     border-radius: 5px 20px;
     padding: 10px;
     background-color: #bed9d2;
@@ -249,6 +259,8 @@ div.list img:first-child {display: none;}
       background-color: #bed9d2;
     }
   }
+
+
 
 #mlModal {
     position: relative;
@@ -287,6 +299,10 @@ div.list img:first-child {display: none;}
     background-color: #ccc;
     font-size: 1.5rem;
   }
+
+
+
+
 
 
 /************************** JOIN FORM **************************/
@@ -348,7 +364,8 @@ form.designOne {
 .designOne input:-webkit--autofill{
 -webkit--text-fill-color: #3D405B;
 }
-/************************** SEARCH RESULTS **************************/
+
+
 
 #results {
 background-color: #F4F1DE;
@@ -405,10 +422,10 @@ border-radius: 6px;
   }
 
 
+
 /************************** FOOTER **************************/
 footer {
-    background-color: #8A4F55;
-    color: #fff;
+    background-color: #bed9d2;
 }
 footer section {
     padding: 2rem 10px;
