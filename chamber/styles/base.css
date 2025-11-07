@@ -11,7 +11,7 @@ Light Golden Brown #D49C68  */
 
 /************************** HEADER **************************/
 header {
-    background-color: #8A4F55;
+    background-color: #D49C68;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -37,7 +37,7 @@ nav ul li a {
     font-size: 1.2rem;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-nav ul li.active a {background-color: #D49C68; color: #fff;}
+nav ul li.active a {background-color: #8A4F55; color: #fff;}
 nav ul li a:hover {
     background-color: rgba(255,255,255,0.15);
 }
