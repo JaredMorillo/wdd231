@@ -1,0 +1,451 @@
+/* COLOR SCHEME */
+/* Red #D49C68 */
+/* Orange #E4A390 */
+/* Tan #8A4F55 */
+/* Blue #4A3F40 */
+/* Navy #28222C */
+
+/* -------------- COLOR PALLETTE ---------------
+Dark Purple  #28222C
+Dark grayish brown #4A3F40, 
+deep dusty rose #8A4F55 
+light peach #E4A390
+Light Golden Brown #D49C68  */
+
+* {
+    font-family: "Vidaloka", serif;
+}
+
+/************************** HEADER **************************/
+header {
+    background-color: #8A4F55;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+header img {display: block; padding: 16px 10px;}
+header span:first-child {font-size: 2rem;}
+header span:nth-child(2) {font-size: 1rem;}
+
+
+/************************** NAVIGATION **************************/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: .75rem;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+nav ul li.active a {background-color: #D49C68; color: #fff;}
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.15);
+}
+
+/************************** HAMBURGER NAVIGATION **************************/
+button#hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+	background: none;
+	border: none;
+	display: block;
+	padding-bottom: .6rem;
+	font-size: 2rem;
+	color: #28222C;
+	text-align: center;
+	width: 50px;
+	cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+button#hamburger::before {
+	content: "\2630";
+}
+button#hamburger.show::before {
+	content: "x";
+}
+/************ Animate open and closed *************/
+nav {
+    background-color: #E4A390;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+nav.show {
+    grid-template-rows: 1fr;
+}
+
+/************ Hero Image *************/
+.hero {
+    max-width: 1200px;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero a{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2a384a;
+}
+
+
+
+/************ Overall Page Styling *************/
+main h1 {
+    margin: .5rem 10px;
+    color: #d4295f;
+}
+main h2 {
+    margin: .5rem 10px;
+    color: #4A3F40;
+}
+main h3 {
+    margin: .5rem 10px;
+    color: #333;
+}
+main p {
+    margin: .5rem 10px;
+    color: #333;
+}
+main a {
+    color: #82082f;
+}
+
+/************ Events and Weather *************/
+section.ew {margin: .5rem 10px;}
+section.ew div {background-color: #eee;}
+section.ew h2 {
+    margin: 0;
+    background-color: #d4295f;
+    color: white;
+    padding: 5px 10px;
+}
+div.events p{
+    margin: .75rem 10px
+}
+div.weather div{
+    display: flex;
+}
+div.weather p {
+    font-family: Verdana, sans-serif;
+    margin: .2rem 0;
+    font-size: .75rem;
+    color: #008b94;
+
+}
+#forecast p {
+    margin: .5rem 10px;
+    font-family: Verdana, sans-serif;
+    color: #008b94;
+}
+
+
+/************************** HOME PAGE SPOTLIGHTS HERE **************************/
+#spot div {
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+#spot h2 {
+    background-color: #f27d80;
+    margin: 0;
+    padding: .3rem 0;
+    font-size: 1.1rem;
+}
+#spot p {
+    margin: 0;
+    padding: .5rem;
+}
+#spot img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/************************** DIRECTORY HERE **************************/
+div.theButtons {width: 100%; text-align: center;}
+div.theButtons button.active {background-color: #f27d80;}
+div.theButtons button {
+  margin: 0 1rem; 
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #666;
+}
+div#members {
+  margin: 0 2vw;
+}
+/*GRID layout here*/
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: center;
+  
+}
+div.grid section {
+  text-align: center;
+  margin: 1rem 0;
+  border: solid 1px #aaa;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.grid img:first-child {width: 100%; height: auto;}
+div.grid h3 {margin: .2rem 0;}
+div.grid p {margin: .2rem 0;}
+
+/*LIST layout here*/
+div.list section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  margin: .5rem 0;
+  padding: 5px;
+  border: solid 1px #aaa;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.list img:first-child {display: none;}
+
+
+
+
+
+/************************** MODAL POPUPS **************************/
+.mslvl aside {
+    border: solid 1px #444;
+    border-radius: 5px 20px;
+    padding: 10px;
+    background-color: #bed9d2;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    0% {
+      opacity: 0%;
+      margin-top: 50px;
+      background-color: #aebb1a;
+    }
+    100% {
+      opacity: 100%;
+      margin-top: 0px;
+      background-color: #bed9d2;
+    }
+  }
+
+
+
+#mlModal {
+    position: relative;
+    border: 2px solid #f27d80;
+    border-radius: 8px;
+    padding: .5rem;
+    background-color: #eee;
+    box-shadow: 0 0 15px #777;
+    width: 90%;
+}
+
+#mlModal div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    border-bottom: dashed 1px #aaa;
+  }
+  
+  #mlModal h4 {
+    font-size: 1.5rem;;
+    font-weight: 500;
+    margin: 0;
+  }
+  #mlModal span {
+    font-size: 1rem;;
+  }
+
+  ::backdrop {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  #mlModal button {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ccc;
+    font-size: 1.5rem;
+  }
+
+
+
+
+
+
+/************************** JOIN FORM **************************/
+.sbs {padding: 1rem;}
+form.designOne {
+    margin: 1rem 2%;
+}
+.designOne label {
+    display: block;
+    font-size: .8rem;
+    color: #d4295f;
+    padding-top: .2rem;
+}
+.designOne h3 {
+    font-size: .9rem;
+    color: #E07A5F;
+    margin: 1.5rem 0 .2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.designOne input[type=text],
+.designOne input[type=tel],
+.designOne input[type=date],
+.designOne input[type=email],
+.designOne textarea,
+.designOne select {
+    display: block;
+    margin: .1rem 0 1rem 0 ;
+    padding: .3rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color:#555;
+    font-size: 1rem;
+    color: #3D405B;
+    width: 250px;
+}
+
+.designOne input:required {border-left-color: #d70000;}
+.designOne input:focus {border-left-color: black; outline:none;}
+.designOne input:required:valid{border-left-color: green;}
+
+.designOne input[type=submit] {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    -webkit-appearance: none;
+    appearance: none;
+    animation: color_change 2s infinite alternate linear;
+}
+
+  @keyframes color_change {
+	0% {border-radius: 1px 20px; background-color: #3D405B;}
+    100% {border-radius: 20px 1px; background-color: rgb(85, 126, 128);}
+}
+.designOne input:-webkit-autofill{
+-webkit-text-fill-color: #3D405B;
+}
+
+
+
+#results {
+background-color: #F4F1DE;
+padding: 0 1rem;
+margin: 10px;
+border: 1px solid #E07A5F;
+border-radius: 6px;
+}
+
+
+/************************** DISCOVER PAGE HERE **************************/
+#allplaces div {
+    margin: 1rem 8px;
+    padding: 10px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    display: grid;
+    gap:10px;
+    grid-template-areas: 
+    "name" 
+    "photograph"
+    "description"
+    "cost"
+    "location"
+    "button"
+  }
+  #allplaces div h2 {
+    margin: 1rem 0px;
+    grid-area: name;
+  }
+  #allplaces div img {
+    width: 100%;
+    grid-area: photograph;
+  }
+  #allplaces div p {
+    margin: 1rem 0px;
+    grid-area: description;
+  }
+  #allplaces div address {
+    margin: 1rem 0px;
+    grid-area: location;
+  }
+  #allplaces div button {
+    margin: 1rem 0px;
+    background-color: #d4295f;
+    color: #eee;
+    border:none;
+    border-radius: 30px;
+    padding: 1rem;
+    grid-area: button;
+  }
+
+
+
+/************************** FOOTER **************************/
+footer {
+    background-color: #bed9d2;
+}
+footer section {
+    padding: 2rem 10px;
+}
+footer section.social {
+    display: flex;
+    justify-content: center
+}
+
+footer img {
+    width: auto;
+    height: 44px;
+    margin: 0 10px;
+}
+footer p {
+    margin: .25rem;
+}

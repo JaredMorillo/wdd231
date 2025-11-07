@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Sierra Lodge and Spa",
+            "address": "Km 21, Parque Nacional Cajas, Cuenca",
+            "phone": "047-415-1694",
+            "url": "https://hosteriadoschorreras.com/",
+            "logopath": "logo1.webp",
+            "level": 3
+        },
+        {
+            "name": "Tunas y Cabras Farm",
+            "address": "Piman, Imbabura, Ecuador",
+            "phone": "099-520-8793",
+            "url": "https://tunasycabras.com/",
+            "logopath": "logo2.webp",
+            "level": 1
+        },
+        {
+            "name": "Luna Volcanic Winery",
+            "address": "Km 23, Runtun, Baños, Ecuador",
+            "phone": "043-274-0309",
+            "url": "https://lunavolcan.com/",
+            "logopath": "logo3.webp",
+            "level": 2
+        },
+        {
+            "name": "Termas Papallacta",
+            "address": "Km. 65 vía Quito - Baeza",
+            "phone": "(04-2) 398 0900",
+            "url": "https://www.termaspapallacta.com/",
+            "logopath": "logo4.webp",
+            "level": 3
+        },
+        {
+            "name": "Rumi Pamba Artisanal Crafts",
+            "address": "Av. Norte 35-01 and Eloy Yerovi San Miguel de Salcedo, Ecuador",
+            "phone": "(043) 272 6128",
+            "url": "https://www.rumipamba.com/",
+            "logopath": "logo5.webp",
+            "level": 2
+        },
+        {
+            "name": "Guidance Offices and Hosteria Andaluza",
+            "address": "Km. 16 Comunidad Chuquipogion, Loja, Ecuador",
+            "phone": "+593 98 958 5609",
+            "url": "https://www.hosteriaandaluza.com/",
+            "logopath": "logo6.webp",
+            "level": 1
+        },
+        {
+            "name": "Pachamama Eco Lodge",
+            "address": "Runtun Community, Baños, Ecuador",
+            "phone": "+593 962 384 406",
+            "url": "https://www.pachamamaecolodge.com/",
+            "logopath": "logo7.webp",
+            "level": 3
+        }
+    ]
+}
