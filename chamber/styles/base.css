@@ -11,10 +11,11 @@ Light Golden Brown #D49C68  */
 
 /************************** HEADER **************************/
 header {
-    background-color: #D49C68;
+    background-color: #8A4F55;
     display: flex;
     align-items: center;
     justify-content: left;
+    color: #E4A390;
 }
 header img {display: block; padding: 16px 10px;}
 header span:first-child {font-size: 2rem;}
