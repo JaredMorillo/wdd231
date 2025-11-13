@@ -125,7 +125,7 @@ main a {
 }
 
 /************ Events and Weather *************/
-/*section.ew {margin: .5rem 10px;}
+section.ew {margin: .5rem 10px;}
 section.ew div {background-color: #eee;}
 section.ew h2 {
     margin: 0;
@@ -140,7 +140,7 @@ div.weather div{
     display: flex;
 }
 div.weather p {
-    font-family: Verdana, sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     margin: .2rem 0;
     font-size: .75rem;
     color: #008b94;
@@ -148,13 +148,13 @@ div.weather p {
 }
 #forecast p {
     margin: .5rem 10px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     color: #008b94;
 }
 
 
 /************************** HOME PAGE SPOTLIGHTS HERE **************************/
-/*#spot div {
+#spot div {
     background-color: #eee;
     text-align: center;
     border: 1px solid #aaa;
