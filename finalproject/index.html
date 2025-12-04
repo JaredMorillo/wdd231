@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Games for Good Times</title>
+    <meta name="description" content="Board Games for Good Times home page for Tourism and Business Opportunities | WDD231 Final Project by Jared Morillo">
+    <meta name="author" content="Jared Morillo">
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Board Games for Good Times">
+    <meta property="og:description" content="Board Games for Good Times home page for Fun and Entertainment | WDD231 Final Project by Jared Morillo">
+    <meta property="og:url" content="https://jaredmorillo.github.io/wdd231/finalproject">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://jaredmorillo.github.io/wdd231/finalproject/images/hero.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="wdd231 Board Games for Good Times | WDD231 Final Project by Jared Morillo">
+
+    <!-- Styles -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <!-- Google Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+    <!-- Script Links -->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/currentweather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="boardgames" width="50" height="50">
+        <div>
+        <span>Board Games</span>
+        <div>for Good Times</div>
+    </div>
+        <button id="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <img src="images/hero.webp" width="1200" height="350" alt="Board Games for Good Times">
+            <a href="join.html">Join Us</a>
+        </div>
+        <h1>Home</h1>
+
+        <section class="ew">
+            <div class="events">
+                <h2>Events</h2>
+                <p>Monday 7:30pm : Online Campaign - Storm King's Thunder</p>
+                <p>Tuesday 9:00am : Podcast with the community - New merch and Fun games</p>
+                <p>Wednesday 4:00pm : Online Meeting - Sharing strategies for Catan</p>
+            </div>
+            <div class="weather">
+                <h2 id="city">Weather</h2>
+                <div>
+                    <img id="weather-icon" src="images/fake.png" alt="weather-icon" width="50" height="50">
+                    <span id="report"></span>
+                </div>
+            </div>
+            <div>
+                <h2>Forecast</h2>
+                <span id="forecast"></span>
+            </div>
+        </section> <!-- End Events and Weather -->
+
+
+        <div id="spot"></div>
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="address">
+            <h4>Board Games for Good Times</h4>
+            <h4>Av.Francisco Rizzo</h4>
+            <h4>Ecuador, GYE</h4>
+            <h4>info@board.net</h4>
+            <h4>(043)-425-0232</h4>
+        </div>
+        
+        <div class="social">
+            <a href="#"><img src="images/linked-in.svg" alt="linked-in" width="44" height="44"></a>
+            <a href="#"><img src="images/facebook.svg" alt="facebook" width="25" height="44"></a>
+            <a href="#"><img src="images/twitter.svg" alt="twitter" width="54" height="44"></a>
+            <a href="#"><img src="images/instagram.svg" alt="instagram" width="44" height="44"></a>
+        </div>
+
+        <div class="project">
+            <p>WDD231 Final Project</p>
+            <p>Jared Morillo</p>
+            <p>&copy; <span id="currentyear"></span> • Jared Morillo | Guayaquil, Ecuador •</p>
+            <p id="lastModified"></p>
+        </div>
+        
+    </footer>
+</body>
+</html>

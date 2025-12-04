@@ -1,0 +1,53 @@
+{
+    "members": [
+        {
+            "game": "Settlers of Catan",
+            "author": "Klaus Teuber",
+            "url": "https://catanuniverse.com/",
+            "logopath": "logo1.webp",
+            "level": 3
+        },
+        {
+            "game": "RISK: Global Domination",
+            "author": "Albert Lamorisse",
+            "url": "https://store.steampowered.com/app/1128810/RISK_Global_Domination/",
+            "logopath": "logo2.webp",
+            "level": 1
+        },
+        {
+            "game": "Dungeons & Dragons",
+            "author": "Gary Gygax and Dave Arneson",
+            "url": "https://www.dndbeyond.com/",
+            "logopath": "logo3.webp",
+            "level": 2
+        },
+        {
+            "game": "Monopoly",
+            "author": "Charles Darrow and Elizabeth Magie",
+            "url": "https://www.monopolygo.com/",
+            "logopath": "logo4.webp",
+            "level": 3
+        },
+        {
+            "game": "Cluedo",
+            "author": "Anthony E. Pratt",
+            "url": "https://www.marmaladegamestudio.com/games/cluedo/",
+            "logopath": "logo5.webp",
+            "level": 2
+        },
+        {
+            "game": "Zombicide",
+            "author": "Guillaume Blossier",
+            "url": "https://www.zombicide.com/",
+            "logopath": "logo6.webp",
+            "level": 1
+        },
+        {
+            "game": "Carcassonne",
+            "author": "Klaus-Jürgen Wrede",
+            "url": "https://www.carcassonnegame.com/",
+            "logopath": "logo7.webp",
+            "level": 3
+        }
+    ]
+}
