@@ -19,7 +19,7 @@ ml1Btn.addEventListener('click', () => {
     mlModal.showModal();
 });
 
-// Modal 2 - not for profit
+// Modal 2 - Exclusivve Membership
 const ml2Btn = document.querySelector('#ml2Btn');
 ml2Btn.addEventListener('click', () => {
     mltitle.innerHTML = "Exclusive Membership"
