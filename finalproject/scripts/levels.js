@@ -37,7 +37,7 @@ ml2Btn.addEventListener('click', () => {
     mlModal.showModal();
 });
 
-// Modal 3 - not for profit
+// Modal 3 - Silver Membership
 const ml3Btn = document.querySelector('#ml3Btn');
 ml3Btn.addEventListener('click', () => {
     mltitle.innerHTML = "Silver Membership"
@@ -52,7 +52,7 @@ ml3Btn.addEventListener('click', () => {
     mlModal.showModal();
 });
 
-// Modal 4 - not for profit
+// Modal 4 - Gold Membership
 const ml4Btn = document.querySelector('#ml4Btn');
 ml4Btn.addEventListener('click', () => {
     mltitle.innerHTML = "Gold Membership"
